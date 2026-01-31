@@ -1,6 +1,6 @@
 # 🔐 SSL Pinning Bypass Instagram App
 
-Instagram SSL Pinning Bypass and intercept Instagram Traffic.
+Instagram SSL Pinning Bypass for Android – intercept Instagram traffic.
 
 ---
 
