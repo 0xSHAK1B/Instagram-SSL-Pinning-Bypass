@@ -17,7 +17,7 @@ Instagram SSL Pinning Bypass for Android – intercept Instagram traffic.
 - **x86_64**
 ---
 ## Instagram App Version 
-- **414.0.0.40.83**
+- **415.0.0.36.76**
 ---
 
 ## 📱 Mobile Device Requirements
