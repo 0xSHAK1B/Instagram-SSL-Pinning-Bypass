@@ -5,10 +5,11 @@ Instagram SSL Pinning Bypass for Android – intercept Instagram traffic.
 ---
 
 ## 🎥 Evidence 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/18897eb8-9325-490c-b985-f163be28ef8e" />
+
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/535bcc37-53b0-4f15-9119-53f3ef235607" />
 
 
-▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/8ee44a2d-4c49-44c6-8cfb-9dae8190e9fb)
+▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/28c05c3c-bc8a-42ad-962d-e0c5241802b3)
 
 ---
 
@@ -17,7 +18,7 @@ Instagram SSL Pinning Bypass for Android – intercept Instagram traffic.
 - **x86_64**
 ---
 ## Instagram App Version 
-- **415.0.0.36.76**
+- **416.0.0.47.66**
 ---
 
 ## 📱 Mobile Device Requirements
