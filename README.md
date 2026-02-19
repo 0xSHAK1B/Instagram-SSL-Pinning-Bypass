@@ -25,9 +25,10 @@ This project provides a **patched `libstartup.so`** library for the Instagram An
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Instagram SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/535bcc37-53b0-4f15-9119-53f3ef235607" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/03501201-827f-4d1a-8462-73714ca8c1ec" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/28c05c3c-bc8a-42ad-962d-e0c5241802b3)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/79a28465-f2f1-4dc9-b006-d2a344bc5848)
 
 ---
 
@@ -35,7 +36,7 @@ This project provides a **patched `libstartup.so`** library for the Instagram An
 
 | App | Version | Patched Library | Status |
 |-----|---------|-----------------|--------|
-| Instagram | **416.0.0.47.66** | `libstartup.so` | ✅ Bypassed |
+| Instagram | **417.0.0.54.77** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest patched `libstartup.so`**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
