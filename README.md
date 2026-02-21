@@ -13,14 +13,6 @@
 
 This project provides a **patched `libstartup.so`** library for the Instagram Android app with SSL/TLS certificate pinning disabled, enabling security researchers and developers to capture and analyze Instagram HTTPS traffic using standard MITM proxy tools.
 
-**Key highlights:**
-
-- ✅ Works on rooted and non-rooted Android devices
-- ✅ Compatible with Android emulators (Nox, LDPlayer)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ **ARM64-v8a** & **x86_64** architecture support
-- ✅ Simple library replacement — no full APK repackaging needed
-
 ---
 
 ## 🎥 Proof of Concept
@@ -110,25 +102,6 @@ Open the Instagram app and start intercepting HTTPS requests and responses in yo
 
 ---
 
-## ❓ FAQ
-
-**Q: Does this require root access?**
-A: On physical devices, it works on both rooted and non-rooted setups. On emulators, root access is needed to write to the app's private data directory.
-
-**Q: Will this work on iOS?**
-A: No. This bypass targets the Android version of Instagram only.
-
-**Q: Can I use this with Burp Suite?**
-A: Yes. Configure Burp Suite as a proxy, install the Burp CA certificate on your device/emulator, push the patched library, and launch Instagram.
-
-**Q: Do I need to repackage or re-sign the APK?**
-A: No. This method replaces only the native `.so` library — no APK modification or re-signing required.
-
-
-**Q: The patched version doesn't match the latest Instagram release — what do I do?**
-A: [Contact me on Telegram](https://t.me/MUH4MM4DSH4KIB) for the latest patched `libstartup.so`.
-
----
 
 ## 📬 Contact & Latest Builds
 
