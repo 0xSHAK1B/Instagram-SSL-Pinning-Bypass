@@ -9,6 +9,7 @@
 
 ---
 
+
 ## 📖 Overview
 
 This project provides two bypass methods for Instagram's SSL/TLS certificate pinning on Android, enabling security researchers and developers to capture and analyze Instagram's HTTPS traffic using standard MITM proxy tools.
