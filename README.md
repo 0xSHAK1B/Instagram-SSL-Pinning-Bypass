@@ -19,14 +19,6 @@ This project provides two bypass methods for Instagram's SSL/TLS certificate pin
 | `arm64-v8a` | Pre-patched APK |
 | `x86_64` | Patched `libstartup.so` replacement |
 
-**Key highlights:**
-
-- ✅ ARM64 — No root required, just install the patched APK
-- ✅ x86_64 — Simple library replacement for emulator setups
-- ✅ Compatible with Android emulators (Nox, LDPlayer, BlueStacks)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ Full app functionality preserved — browse, post, and interact normally
-
 ---
 
 ## 🎥 Proof of Concept
