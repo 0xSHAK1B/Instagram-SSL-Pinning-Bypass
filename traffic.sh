@@ -30,7 +30,7 @@ x-bloks-prism-font-enabled: true
 
 x-bloks-prism-indigo-link-version: 0
 
-x-bloks-version-id: 4432c03bbc9afdfa1d1e1b444c208400c0d04e814408aa58a5870be218ed7f0b
+x-bloks-version-id: 2530c58174d063584f25e249151d5bc7c53db138cfc68b554daa78c6cd7356b0
 
 x-fb-client-ip: True
 
@@ -62,11 +62,11 @@ x-ig-capabilities: 3brTv10=
 
 x-ig-connection-type: WIFI
 
-x-ig-device-id: e3cf6fe4-0663-4bd6-8e76-611cd56445da
+x-ig-device-id: 7f0dab35-1663-4762-aa3e-a82c6f266189
 
 x-ig-device-locale: en_US
 
-x-ig-family-device-id: fe3c025a-7c2b-4c06-9fb8-0d8928373e13
+x-ig-family-device-id: faedaceb-d0af-4988-b8cc-d7a4d6bbca63
 
 x-ig-is-foldable: false
 
@@ -76,13 +76,13 @@ x-ig-timezone-offset: 21600
 
 x-ig-www-claim: 0
 
-x-mid: abNGawABAAHrcl2eYqvDqSHXxZ2i
+x-mid: abpHlAABAAFLa9RydwnGJixS1VYG
 
-x-meta-usdid: 5c09fa74-b4f2-44dc-a6c0-5e18ed86b29c.1773360253.MEQCIAtpz-YHtxynm1i4eZCoAEGDwhyLDAiK9g7eHNLmbr17AiB4lRUELN0GBT1jrKpTpi453FpfGvtwFPylQkjYDjZTIg
+x-meta-usdid: a99fe2e5-fdcf-44e4-97b6-7c5504513698.1773819302.MEUCIQCmpEP0XkbAotgWIvryR3NwH-n7sk4ePrsunQwWiMYRAwIgA-vZztQfQ_pSgBH2ohg_F1SBcX2QgGrVjFnGqjaCwkk
 
-x-pigeon-rawclienttime: 1773356665.849
+x-pigeon-rawclienttime: 1773815716.144
 
-x-pigeon-session-id: UFS-d72d2d06-69f8-4b3e-8555-74b686d86584-0
+x-pigeon-session-id: UFS-01e55be2-47a2-4698-9a12-8cd6fb9fdf0c-0
 
 x-tigon-is-retry: False
 
@@ -92,10 +92,10 @@ x-zero-eh: IG0e09d776530888418ab70f3822fbb4e1
 
 accept-encoding: zstd
 
-content-length: 4099
+content-length: 4109
 
-user-agent: Instagram 420.0.0.55.74 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 903615939)
+user-agent: Instagram 421.0.0.51.66 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 909555837)
 
-x-fb-conn-uuid-client: 87d63462ddc69f9166d983577adb615
+x-fb-conn-uuid-client: 96a16c292a33cc1f3b0ef5a7d23c994c
 
 x-fb-http-engine: Tigon/MNS/TCP
