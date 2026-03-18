@@ -23,12 +23,10 @@ This project provides two bypass methods for Instagram's SSL/TLS certificate pin
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/63b0f50d-d9c2-43e9-a6f9-c9e09fc80888" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/c9a898ee-ebfc-4b42-8b91-2b996e26497e" />
 
 
-
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/d7a64412-8ae6-45b7-b28c-c280e4e48a42)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/412325a2-3674-4019-9578-465cdc9acbed)
 
 ---
 
@@ -36,7 +34,7 @@ This project provides two bypass methods for Instagram's SSL/TLS certificate pin
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **420.0.0.55.74** | ✅ Bypassed |
+| Instagram | **421.0.0.51.66** | ✅ Bypassed |
 
 > For the **latest bypassed APK or patched library**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
