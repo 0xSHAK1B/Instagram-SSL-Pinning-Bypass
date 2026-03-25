@@ -30,7 +30,7 @@ x-bloks-prism-font-enabled: true
 
 x-bloks-prism-indigo-link-version: 0
 
-x-bloks-version-id: 2530c58174d063584f25e249151d5bc7c53db138cfc68b554daa78c6cd7356b0
+x-bloks-version-id: dd9727564fa874f2ebf47e9eca5d00c86c1bf1eef22fcba4fd1e05edab8ec6e0
 
 x-fb-client-ip: True
 
@@ -48,8 +48,7 @@ x-ig-app-id: 567067343352427
 
 x-ig-app-locale: en_US
 
-x-ig-attest-params: 
-
+x-ig-attest-params:
 x-ig-bandwidth-speed-kbps: -1.000
 
 x-ig-bandwidth-totalbytes-b: 0
@@ -62,11 +61,11 @@ x-ig-capabilities: 3brTv10=
 
 x-ig-connection-type: WIFI
 
-x-ig-device-id: 7f0dab35-1663-4762-aa3e-a82c6f266189
+x-ig-device-id: 171a3546-9663-474c-b28c-af76d1cd5765
 
 x-ig-device-locale: en_US
 
-x-ig-family-device-id: faedaceb-d0af-4988-b8cc-d7a4d6bbca63
+x-ig-family-device-id: 11ef5f5e-ba42-4e67-919b-767fe41e1163
 
 x-ig-is-foldable: false
 
@@ -76,13 +75,13 @@ x-ig-timezone-offset: 21600
 
 x-ig-www-claim: 0
 
-x-mid: abpHlAABAAFLa9RydwnGJixS1VYG
+x-mid: acQZIQABAAEc7BU9Ip52JRm0-BlD
 
-x-meta-usdid: a99fe2e5-fdcf-44e4-97b6-7c5504513698.1773819302.MEUCIQCmpEP0XkbAotgWIvryR3NwH-n7sk4ePrsunQwWiMYRAwIgA-vZztQfQ_pSgBH2ohg_F1SBcX2QgGrVjFnGqjaCwkk
+x-meta-usdid: 17b426c1-91f9-4a1c-9c12-4a424cb3affd.1774462771.MEQCIGVsh0eVPUA8GQfNcPPH39ZoOpZzkGQduCogmFCeUvEYAiBYoSU7sQzFesvvCxXAXkiYOZspllJ4dpfiJT9b6IcyzA
 
-x-pigeon-rawclienttime: 1773815716.144
+x-pigeon-rawclienttime: 1774459184.643
 
-x-pigeon-session-id: UFS-01e55be2-47a2-4698-9a12-8cd6fb9fdf0c-0
+x-pigeon-session-id: UFS-895e019f-d059-4d06-ad0a-dc6eab567013-0
 
 x-tigon-is-retry: False
 
@@ -92,10 +91,10 @@ x-zero-eh: IG0e09d776530888418ab70f3822fbb4e1
 
 accept-encoding: zstd
 
-content-length: 4109
+content-length: 4138
 
-user-agent: Instagram 421.0.0.51.66 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 909555837)
+user-agent: Instagram 422.0.0.44.64 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 916493374)
 
-x-fb-conn-uuid-client: 96a16c292a33cc1f3b0ef5a7d23c994c
+x-fb-conn-uuid-client: ff834c5d5e2b8101443b3f3ae4880c6
 
 x-fb-http-engine: Tigon/MNS/TCP
