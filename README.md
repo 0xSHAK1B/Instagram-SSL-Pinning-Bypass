@@ -2,29 +2,31 @@
 
 [![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64--v8a-Patched_APK-blue?style=for-the-badge)
-![x86_64](https://img.shields.io/badge/x86__64-Patched_Library-blue?style=for-the-badge)
+![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
+![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
 
 > Bypass Instagram SSL certificate pinning on Android to intercept, inspect, and analyze HTTPS network traffic — works on both **rooted** and **non-rooted** devices.
 
 ---
 
-
 ## 📖 Overview
 
-This project provides two bypass methods for Instagram's SSL/TLS certificate pinning on Android, enabling security researchers and developers to capture and analyze Instagram's HTTPS traffic using standard MITM proxy tools.
+This project provides a pre-patched **Instagram APK** with SSL/TLS certificate pinning disabled, allowing security researchers and developers to capture and analyze Instagram's HTTPS traffic using standard MITM proxy tools. Inspect API endpoints, media delivery, authentication flows, GraphQL queries, and content recommendation mechanisms.
 
-| Architecture | Bypass Method |
-|---|---|
-| `arm64-v8a` | Pre-patched APK |
-| `x86_64` | Patched `libstartup.so` replacement |
+**Key highlights:**
+
+- ✅ No root required (also supports rooted devices)
+- ✅ Compatible with Android emulators (Nox, LDPlayer, BlueStacks)
+- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
+- ✅ ARM64-v8a & x86_64 architecture support
+- ✅ Full app functionality preserved — browse, post, and interact normally
 
 ---
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/73614205-53be-4c65-a54b-0f37cf31853a" />
 
+<img width="720" height="1640" alt="Instagram SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/73614205-53be-4c65-a54b-0f37cf31853a" />
 
 ▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/16dd1882-cd95-49c7-b7d4-32d8c2a6b88e)
 
@@ -34,51 +36,46 @@ This project provides two bypass methods for Instagram's SSL/TLS certificate pin
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **422.0.0.44.64** | ✅ Bypassed |
+| Instagram | **422.0.0.44.64** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
-> For the **latest bypassed APK or patched library**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+> For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
 ---
 
-## ⚙️ Supported Architectures & Methods
+## ⚙️ Supported Architectures
 
-| Architecture | Method | Best For |
-|---|---|---|
-| `arm64-v8a` | ✅ Patched APK | Physical devices & ARM64 emulators |
-| `x86_64` | ✅ Patched `libstartup.so` | x86_64 emulators (Nox, LDPlayer, BlueStacks) |
+| Architecture | Support |
+|---|---|
+| `arm64-v8a` | ✅ |
+| `x86_64` | ✅ |
 
 ---
 
 ## 📱 Requirements
 
-### Option A: Physical Android Device (ARM64)
+### Option A: Physical Android Device
 
 - Android phone or tablet (**rooted or non-rooted**)
 - One of the following traffic interception tools:
   - [Proxypin](https://proxypin.com) — free, lightweight
   - [Reqable](https://reqable.com) — feature-rich, modern UI
 
-### Option B: Android Emulator (x86_64)
+### Option B: Android Emulator (PC)
 
 - Windows PC with one of the following emulators installed:
-  - [Nox Player](https://www.bignox.com/) — root access enabled
-  - [LDPlayer](https://www.ldplayer.net/) — root access enabled
-  - [BlueStacks](https://www.bluestacks.com/) — root access enabled
+  - [Nox Player](https://www.bignox.com/)
+  - [LDPlayer](https://www.ldplayer.net/)
+  - [BlueStacks](https://www.bluestacks.com/)
 - A desktop MITM proxy tool:
   - [Burp Suite](https://portswigger.net/burp) — industry standard
   - [Mitmproxy](https://mitmproxy.org/) — open source
   - [Reqable](https://reqable.com)
   - [Proxypin](https://proxypin.com)
 
-> **Note:** Root access must be enabled in the emulator for the x86_64 library replacement method.
-
 ---
 
 ## 🚀 Bypass Procedure
-
-### Method 1 — Patched APK (ARM64-v8a)
-
-Best for **physical Android devices** and ARM64 emulators. No root required.
 
 1. **Download** the SSL pinning bypassed Instagram APK from this repository.
 2. **Install** the patched APK on your Android device or emulator.
@@ -89,45 +86,27 @@ Best for **physical Android devices** and ARM64 emulators. No root required.
 
 ---
 
-### Method 2 — Library Replacement (x86_64)
+## What you can inspect:
 
-Best for **x86_64 emulators** (Nox, LDPlayer, BlueStacks). Requires root access in the emulator.
-
-#### Step 1 — Push the Patched Library
-
-Replace the original `libstartup.so` with the patched version using ADB:
-
-```bash
-adb push D:\patched\libstartup.so /data/data/com.instagram.android/lib-compressed/libstartup.so
-```
-
-#### Step 2 — Set Correct Permissions (if needed)
-
-```bash
-adb shell chmod 755 /data/data/com.instagram.android/lib-compressed/libstartup.so
-```
-
-#### Step 3 — Configure Your Proxy
-
-Set up your preferred MITM proxy tool (Proxypin, Reqable, Burp Suite, or Mitmproxy) and install/trust its CA certificate on the emulator.
-
-#### Step 4 — Launch & Capture
-
-Open the Instagram app and start intercepting HTTPS requests and responses in your proxy tool.
-
-> **Tip:** Force-stop Instagram before launching it after the library replacement to ensure the patched library is loaded.
+- **Feed & Reels** — API requests powering Instagram's content recommendation engine
+- **GraphQL queries** — Structured API calls for profile data, posts, stories, and interactions
+- **Media delivery** — CDN URLs, image/video quality negotiation, and caching behavior
+- **Authentication** — Login flows, token management, and session handling
+- **Direct messages** — DM API endpoints and message delivery mechanisms
+- **Search & Explore** — How search queries, hashtag lookups, and discovery feeds are processed
+- **Stories & Highlights** — Story upload pipeline, viewer tracking, and highlight management
 
 ---
 
+
 ## 📬 Contact & Latest Builds
 
-For the **most up-to-date** SSL pinning bypassed Instagram APK or patched `libstartup.so`, reach out directly:
+For the **most up-to-date** SSL pinning bypassed Instagram APK, reach out directly:
 
 [![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
 
 ---
 
-
 ## 🏷️ Tags
 
-`instagram ssl pinning bypass` · `instagram certificate pinning` · `instagram mitm` · `instagram traffic interception` · `instagram burp suite` · `instagram proxy android` · `instagram https decrypt` · `meta instagram security` · `android ssl bypass no root` · `instagram ssl bypass 2025` · `instagram apk patched` · `libstartup.so patch` · `instagram graphql api` · `instagram private api` · `instagram api reverse engineering` · `instagram network analysis` · `com.instagram.android`
+`instagram ssl pinning bypass` · `instagram certificate pinning` · `instagram mitm` · `instagram traffic interception` · `instagram burp suite` · `instagram proxy android` · `instagram https decrypt` · `meta instagram security` · `android ssl bypass no root` · `instagram ssl bypass 2026` · `instagram apk patched` · `instagram graphql api` · `instagram private api` · `instagram api reverse engineering` · `instagram network analysis` · `com.instagram.android`
