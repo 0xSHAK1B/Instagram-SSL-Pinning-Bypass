@@ -13,14 +13,6 @@
 
 This project provides a pre-patched **Instagram APK** with SSL/TLS certificate pinning disabled, allowing security researchers and developers to capture and analyze Instagram's HTTPS traffic using standard MITM proxy tools. Inspect API endpoints, media delivery, authentication flows, GraphQL queries, and content recommendation mechanisms.
 
-**Key highlights:**
-
-- ✅ No root required (also supports rooted devices)
-- ✅ Compatible with Android emulators (Nox, LDPlayer, BlueStacks)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ ARM64-v8a & x86_64 architecture support
-- ✅ Full app functionality preserved — browse, post, and interact normally
-
 ---
 
 ## 🎥 Proof of Concept
