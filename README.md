@@ -18,9 +18,10 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="720" height="1640" alt="Instagram SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/73614205-53be-4c65-a54b-0f37cf31853a" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/67fed452-6431-43c2-bbab-9b9ae757a25a" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/16dd1882-cd95-49c7-b7d4-32d8c2a6b88e)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/82c7397c-5603-464e-9bd7-c75e995369fd)
 
 ---
 
@@ -28,7 +29,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **422.0.0.44.64** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **423.0.0.47.66** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
