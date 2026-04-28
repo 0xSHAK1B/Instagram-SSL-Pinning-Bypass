@@ -18,9 +18,9 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/6754023b-443b-4239-8a31-d128e5c84690" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/40ef52a2-79fe-46c2-8ec4-a0cce77e6212" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/486adbe4-4d52-4b69-8f7f-a71aa74daf50)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/b6923686-ab94-495a-aa04-8fe0bd9e72e0)
 
 ---
 
@@ -28,7 +28,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **425.0.0.47.61** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **427.0.0.47.73** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
@@ -78,15 +78,13 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 ---
 
-## What you can inspect:
+## Related Projects
 
-- **Feed & Reels** — API requests powering Instagram's content recommendation engine
-- **GraphQL queries** — Structured API calls for profile data, posts, stories, and interactions
-- **Media delivery** — CDN URLs, image/video quality negotiation, and caching behavior
-- **Authentication** — Login flows, token management, and session handling
-- **Direct messages** — DM API endpoints and message delivery mechanisms
-- **Search & Explore** — How search queries, hashtag lookups, and discovery feeds are processed
-- **Stories & Highlights** — Story upload pipeline, viewer tracking, and highlight management
+- [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) — Intercept Threads HTTPS traffic on Android
+- [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) — Capture Facebook API requests and responses
+- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass TikTok certificate pinning for traffic analysis
+- [**Meta Business Suite SSL Pinning Bypass**](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) — Decrypt Snapchat HTTPS traffic on Android
+
 
 ---
 
