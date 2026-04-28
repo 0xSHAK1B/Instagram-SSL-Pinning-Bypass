@@ -82,8 +82,8 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 - [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) — Intercept Threads HTTPS traffic on Android
 - [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) — Capture Facebook API requests and responses
-- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass TikTok certificate pinning for traffic analysis
-- [**Meta Business Suite SSL Pinning Bypass**](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) — Decrypt Snapchat HTTPS traffic on Android
+- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass Messenger certificate pinning for traffic analysis
+- [**Meta Business Suite SSL Pinning Bypass**](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) — Decrypt Meta Business Suite HTTPS traffic on Android
 
 
 ---
