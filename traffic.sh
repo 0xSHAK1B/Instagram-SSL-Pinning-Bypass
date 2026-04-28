@@ -1,28 +1,44 @@
-POST /graphql_www HTTP/2
+POST /api/v1/bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/ HTTP/2
 
 host: b.i.instagram.com
 
 accept-language: en-US
 
-content-encoding: gzip
+content-type: application/x-www-form-urlencoded; charset=UTF-8
 
-content-length: 953
+ig-intended-user-id: 0
 
-content-type: application/x-www-form-urlencoded
+priority: u=3
 
-priority: u=3, i
+x-bloks-is-layout-rtl: false
 
-user-agent: Instagram 425.0.0.47.61 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 938255970)
+x-bloks-prism-button-version: CONTROL
 
-x-bloks-version-id: 2a6e58f9d7d3bc66d326cab0c9a0c3fcba18cc5959ae6829d31a6817747cc017
+x-bloks-prism-colors-enabled: false
 
-x-client-doc-id: 124930351917786857261002920888
+x-bloks-prism-extended-palette-gray: false
+
+x-bloks-prism-extended-palette-indigo: true
+
+x-bloks-prism-extended-palette-polish-enabled: false
+
+x-bloks-prism-extended-palette-red: true
+
+x-bloks-prism-extended-palette-rest-of-colors: true
+
+x-bloks-prism-font-enabled: true
+
+x-bloks-prism-indigo-link-version: 1
+
+x-bloks-version-id: 8f3db7be00850e43bd95dd80175b2eb634668779c850b82e3a1202f925380c8e
 
 x-fb-client-ip: True
 
-x-fb-friendly-name: IGUSDIDRegistrationMutation
+x-fb-connection-type: WIFI
 
-x-fb-request-analytics-tags: {"network_tags":{"product":"567067343352427","request_category":"graphql","purpose":"none","retry_attempt":"0"}}
+x-fb-friendly-name: IgApi: bloks/async_action/com.bloks.www.bloks.caa.login.async.send_login_request/
+
+x-fb-request-analytics-tags: {"network_tags":{"product":"567067343352427","surface":"undefined","request_category":"api","purpose":"fetch","retry_attempt":"0"}}
 
 x-fb-server-cluster: True
 
@@ -32,11 +48,25 @@ x-ig-app-id: 567067343352427
 
 x-ig-app-locale: en_US
 
+x-ig-attest-params: 
+
+x-ig-bandwidth-speed-kbps: -1.000
+
+x-ig-bandwidth-totalbytes-b: 0
+
+x-ig-bandwidth-totaltime-ms: 0
+
+x-ig-client-endpoint: com.bloks.www.caa.login.login_homepage:com.bloks.www.caa.login.login_homepage
+
 x-ig-capabilities: 3brTv10=
 
-x-ig-device-id: 0ccec6fc-2663-4e9a-9854-df9ec61e8419
+x-ig-connection-type: WIFI
+
+x-ig-device-id: 48bb2992-a663-42a2-a0c3-9a44139bea9c
 
 x-ig-device-locale: en_US
+
+x-ig-family-device-id: 987276b6-5a92-40a0-8b97-1e262fd5e95e
 
 x-ig-is-foldable: false
 
@@ -44,13 +74,15 @@ x-ig-mapped-locale: en_US
 
 x-ig-timezone-offset: 21600
 
-x-ig-validate-null-in-legacy-dict: true
+x-ig-www-claim: 0
 
-x-meta-usdid: 24c03837-0fd1-44cf-a814-88658a343af1.1776241348.MEYCIQCeZfjiGc3bJmPRomKGB3UNtJpQInFzRYHuhy8SuhpUdwIhAJvt_1PIzQi-9RmOlaSoCnGx25J2ObdXnN8IVJhYirsa
+x-mid: afDr5wABAAF4-0eHRxv8PPCtOiXr
 
-x-pigeon-rawclienttime: 1776237750.691
+x-meta-usdid: ea45b7b0-8c50-4c3a-b3db-7bd3fa9d8bfd.1777400308.MEQCIDu_RW7tRqIgdC60yhlcT0a1kQOLUg1iBlmvcS29Q0czAiB4ZF69UpAiC6t4xN5_12iUfkXa7ont3Kj4zHssbKYy6w
 
-x-root-field-name: usdid_registration
+x-pigeon-rawclienttime: 1777396722.516
+
+x-pigeon-session-id: UFS-a7ce4366-47cd-42de-9b1a-0788dd109276-0
 
 x-tigon-is-retry: False
 
@@ -60,8 +92,10 @@ x-zero-eh: IG0e09d776530888418ab70f3822fbb4e1
 
 accept-encoding: zstd
 
-x-fb-conn-uuid-client: 28e5643ec8dbebe8739a5660e0350c4f
+content-length: 4137
+
+user-agent: Instagram 427.0.0.47.73 Android (30/11; 274dpi; 720x1640; Symphony; Z35; Z35; mt6765; en_US; 954603154)
+
+x-fb-conn-uuid-client: 15601eb29a54cadba6fc533afe30cafd
 
 x-fb-http-engine: Tigon/MNS/TCP
-
-x-graphql-client-library: pando
