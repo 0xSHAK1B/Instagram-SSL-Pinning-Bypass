@@ -29,7 +29,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **427.0.0.47.73** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **428.0.0.47.67** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
