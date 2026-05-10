@@ -18,9 +18,10 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/40ef52a2-79fe-46c2-8ec4-a0cce77e6212" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/a67be987-1de5-4839-80a4-421f4c7c0333" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/b6923686-ab94-495a-aa04-8fe0bd9e72e0)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/b7a417b4-7cd5-42c9-a7a6-08569a679569)
 
 ---
 
