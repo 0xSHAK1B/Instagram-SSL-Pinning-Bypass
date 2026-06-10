@@ -18,13 +18,9 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/169ce76c-3042-4571-a471-7b7f160d8f7f" />
+<img width="1920" height="907" alt="Image" src="https://github.com/user-attachments/assets/efaf37d1-d60a-478f-8a86-2e677fc78e21" />
 
 
-
-
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/652dac69-125d-4833-8938-c5bcda1a04f4)
 
 ---
 
@@ -32,7 +28,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **432.1.0.44.80** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **433.0.0.47.68** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
