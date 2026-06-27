@@ -18,8 +18,9 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="1041" height="497" alt="Image" src="https://github.com/user-attachments/assets/c46a33c9-3f4f-47d9-9b51-297ce00fecf8" />
+<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/6dcc2228-6de6-40fa-ab50-02775d9ceba2" />
 
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/36290163-a281-4ae8-a3dd-187226189ba9)
 
 ---
 
@@ -27,7 +28,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **434.0.0.44.74** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **435.0.0.37.76** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
@@ -93,9 +94,3 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 For the **most up-to-date** SSL pinning bypassed Instagram APK, reach out directly:
 
 [![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-
----
-
-## Tags
-
-`instagram ssl pinning bypass` · `instagram ssl pinning bypass 2026` · `instagram certificate pinning bypass android` · `instagram mitm proxy` · `instagram https traffic interception` · `instagram burp suite android` · `instagram https decrypt` · `instagram proxy no root` · `instagram security research` · `instagram api reverse engineering` · `instagram ssl bypass no root` · `instagram frida bypass` · `instagram network traffic capture` · `instagram ssl unpinning` · `bypass ssl pinning instagram android` · `instagram apk ssl bypass` · `instagram mitmproxy` · `instagram reqable proxy` · `instagram penetration testing` · `android ssl pinning bypass 2026` · `intercept instagram traffic` · `instagram security audit` · `instagram certificate bypass arm64` · `instagram https interception android` · `instagram graphql api intercept` · `instagram private api` · `instagram native binary patch` · `meta instagram ssl bypass` · `instagram traffic analysis` · `instagram lite ssl bypass` · `instagram mqtt interception`
