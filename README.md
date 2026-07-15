@@ -18,9 +18,11 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ## 🎥 Proof of Concept
 
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/6dcc2228-6de6-40fa-ab50-02775d9ceba2" />
+<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/51c54918-700a-4d8d-b7d1-b26d5b07a651" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/36290163-a281-4ae8-a3dd-187226189ba9)
+
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/bfc0bc98-02a7-4bff-bb2c-db68d9185c47)
 
 ---
 
@@ -28,7 +30,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 
 | App | Version | Status |
 |-----|---------|--------|
-| Instagram | **435.0.0.37.76** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
+| Instagram | **438.0.0.19.88** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
 | Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
@@ -79,7 +81,7 @@ This project provides a pre-patched **Instagram APK** with SSL/TLS certificate p
 ---
 
 ## Related Projects
-
+- [**Instagram iOS SSL Pinning Bypass**](https://github.com/0xSHAK1B/Instagram-iOS-SSL-Pinning-Bypass) — Capture Instagram API requests and responses
 - [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) — Intercept Threads HTTPS traffic on Android
 - [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) — Capture Facebook API requests and responses
 - [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass Messenger certificate pinning for traffic analysis
