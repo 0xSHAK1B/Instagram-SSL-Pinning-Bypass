@@ -1,98 +1,154 @@
-# Instagram SSL Pinning Bypass for Android (2026) – Intercept & Capture HTTPS Traffic
+<div align="center">
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
-![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
+# 🔓 Instagram Android SSL Pinning Bypass
 
-> Bypass Instagram SSL certificate pinning on Android to intercept, inspect, and analyze HTTPS network traffic — works on both **rooted** and **non-rooted** devices.
+#### Intercept, capture & analyze Instagram HTTPS traffic on Android — no root required
+
+<br>
+
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v442.0.0)-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](../../releases/latest)
+[![Telegram](https://img.shields.io/badge/Chat_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+
+![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Instagram-v442.0.0.46.79-E4405F?style=flat-square&logo=instagram&logoColor=white)
+![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
+
+</div>
 
 ---
 
-## 📖 Overview
+<div align="center">
 
-This project provides a pre-patched **Instagram APK** with SSL/TLS certificate pinning disabled, allowing security researchers and developers to capture and analyze Instagram's HTTPS traffic using standard MITM proxy tools. Inspect API endpoints, media delivery, authentication flows, GraphQL queries, and content recommendation mechanisms.
+> **Bypass SSL/TLS certificate pinning** in Instagram for Android and pipe the full HTTPS stream — including login, API, and Direct flows — into **Burp Suite · mitmproxy · Reqable · Proxypin.**
+
+</div>
 
 ---
 
 ## 🎥 Proof of Concept
 
+<div align="center">
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/02e4a9a0-3588-4c67-8161-ddca44791b00" />
+<img width="578" height="1280" alt="Instagram Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/aa41bb20-cac7-41bb-bf88-5ad63a0b8d34" />
 
+> Live capture — Instagram Android HTTPS traffic intercepted in cleartext. **v442.0.0.46.79**.
 
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/c189f6e9-fe6d-4578-9c0c-9d6e4a7e33b3)
-
----
-
-## 📋 Supported Instagram Version
-
-| App | Version | Status |
-|-----|---------|--------|
-| Instagram | **440.1.0.46.86** | ✅ Bypassed ([contact me on Telegram](https://t.me/MUH4MM4DSH4KIB)) |
-| Instagram | **370.1.0.43.96** | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
-
-> For the **latest bypassed version**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+</div>
 
 ---
 
-## ⚙️ Supported Architectures
+## 📦 Supported Version
 
-| Architecture | Support |
-|---|---|
-| `arm64-v8a` | ✅ |
-| `x86_64` | ✅ |
+| App | Package | Version | ABI | Status |
+|-----|---------|:-------:|:---:|:------:|
+| Instagram for Android | `com.instagram.android` | **442.0.0.46.79** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
----
-
-## 📱 Requirements
-
-### Option A: Physical Android Device
-
-- Android phone or tablet (**rooted or non-rooted**)
-- One of the following traffic interception tools:
-  - [Proxypin](https://proxypin.com) — free, lightweight
-  - [Reqable](https://reqable.com) — feature-rich, modern UI
-
-### Option B: Android Emulator (PC)
-
-- Windows PC with one of the following emulators installed:
-  - [Nox Player](https://www.bignox.com/)
-  - [LDPlayer](https://www.ldplayer.net/)
-  - [BlueStacks](https://www.bluestacks.com/)
-- A desktop MITM proxy tool:
-  - [Burp Suite](https://portswigger.net/burp) — industry standard
-  - [Mitmproxy](https://mitmproxy.org/) — open source
-  - [Reqable](https://reqable.com)
-  - [Proxypin](https://proxypin.com)
+> Grab the patched APK from the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
 ---
 
-## 🚀 Bypass Procedure
+## 🎯 What You Can Capture
 
-1. **Download** the SSL pinning bypassed Instagram APK from this repository.
-2. **Install** the patched APK on your Android device or emulator.
-3. **Configure** your proxy tool of choice (Proxypin, Reqable, Burp Suite, or Mitmproxy) to intercept traffic.
-4. **Launch Instagram** and start capturing HTTPS requests and responses.
+Full visibility into Meta's Instagram API surface:
 
-> **Tip:** Make sure to install and trust the proxy's CA certificate on your device for full HTTPS decryption.
-
----
-
-## Related Projects
-- [**Instagram iOS SSL Pinning Bypass**](https://github.com/0xSHAK1B/Instagram-iOS-SSL-Pinning-Bypass) — Capture Instagram API requests and responses
-- [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) — Intercept Threads HTTPS traffic on Android
-- [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) — Capture Facebook API requests and responses
-- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) — Bypass Messenger certificate pinning for traffic analysis
-- [**Meta Business Suite SSL Pinning Bypass**](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) — Decrypt Meta Business Suite HTTPS traffic on Android
-
+- **Login & authentication** — `i.instagram.com/api/v1/accounts/login/`, 2FA, session tokens
+- **REST & GraphQL API** — feed, explore, reels, stories, and profile endpoints
+- **Direct (DMs)** — realtime/MQTT channels and thread endpoints
+- **Media & CDN** — image/video delivery and the upload pipeline
+- **Search & discovery** — search queries, hashtag and location lookups
+- **Notifications & presence**
+- **Analytics & telemetry** — device telemetry and A/B assignments
 
 ---
 
+## ⚙️ Requirements
 
-## 📬 Contact & Latest Builds
+### Android Device — Android 10, 11, 12, 13, 14+
 
-For the **most up-to-date** SSL pinning bypassed Instagram APK, reach out directly:
+- 🟢 **No root required** — install the patched APK and go (rooted devices supported too)
+- 📱 ARM device (`arm64-v8a`) — virtually all modern phones and tablets
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
+### Emulator (PC)
+
+- Nox / LDPlayer / MEmu / BlueStacks — **enable ARM translation**; this build ships `arm64` native libraries, so x86/x86_64 emulators need the ARM translation layer.
+
+### MITM Proxy Tool
+
+- [**Burp Suite**](https://portswigger.net/burp) — industry-standard security testing proxy
+- [**mitmproxy**](https://mitmproxy.org/) — open-source, scriptable HTTPS proxy
+- [**Reqable**](https://reqable.com) — modern cross-platform HTTP debugger
+- [**Proxypin**](https://proxypin.com) — lightweight proxy with mobile support
+
+---
+
+## 🚀 How to Capture Traffic — Step by Step
+
+1. **Uninstall** the official Instagram app (signatures conflict)
+2. **Download** the patched APK from [**Releases**](../../releases/latest)
+3. **Install** it on your device or emulator
+4. **Install & trust your proxy's CA certificate** — Settings → Security → Encryption & credentials → **Install a certificate → CA certificate**
+5. **Set the Wi-Fi proxy** — Settings → Wi-Fi → (your network) → **Proxy → Manual** → your PC's IP and port
+6. **Launch Instagram** — decrypted HTTPS requests and responses stream into your proxy in real time
+
+> 💡 Force-stop and relaunch the app if traffic doesn't appear immediately.
+
+---
+
+<div align="center">
+
+## 💼 Need a Custom Bypass?
+
+**Custom SSL pinning bypass · automated patching scripts · full reverse-engineering projects** — for any Android or iOS app.
+
+[![Request Custom Work](https://img.shields.io/badge/Message_me_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+
+</div>
+
+---
+
+## ⚠️ Disclaimer
+
+This project is provided **for educational and security-research purposes only**. It is **not affiliated with, endorsed by, or connected to Meta, Instagram, or their subsidiaries**. All trademarks belong to their respective owners. You are solely responsible for complying with your local laws and the app's Terms of Service, and should only analyze traffic on **accounts and devices you own or are authorized to test**. Provided **"as is", without warranty of any kind**.
+
+---
+
+## 🔗 Related Projects
+
+| App | Platform | Repository |
+|-----|----------|------------|
+| Instagram | iOS | [**Instagram iOS SSL Pinning Bypass**](https://github.com/0xSHAK1B/Instagram-iOS-SSL-Pinning-Bypass) |
+| Threads | Android | [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) |
+| Edits | Android | [**Edits SSL Pinning Bypass**](https://github.com/0xSHAK1B/Edits-SSL-Pinning-Bypass) |
+| Facebook | Android | [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) |
+| Instants | Android | [**Instants SSL Pinning Bypass**](https://github.com/0xSHAK1B/Instants-SSL-Pinning-Bypass) |
+| TikTok | Android | [**TikTok SSL Pinning Bypass**](https://github.com/0xSHAK1B/TIKTOK-SSL-Pinning-Bypass) |
+| X (Twitter) | Android | [**Twitter SSL Pinning Bypass**](https://github.com/0xSHAK1B/Twitter-SSL-Pinning-Bypass) |
+
+---
+
+## 💖 Support This Project
+
+If this saved you time or helped your research, please **⭐ star the repo** — it helps others find it and keeps the builds coming. Contributions toward keeping bypasses updated as apps release new versions are appreciated:
+
+| Currency | Address |
+|:---------|:--------|
+| **BTC / ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
+| **USDT (TRC-20)** | `THssAZhUQEEsw15211rAaRLGRjSWXMX4PW` |
+
+Thank you! 🙏
+
+---
+
+<div align="center">
+
+### 📬 Contact & Latest Builds
+
+Newest APKs · support · custom work
+
+[![Telegram](https://img.shields.io/badge/@MUH4MM4DSH4KIB-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+
+⭐ **Star the repo if it helped your research!**
+
+</div>
+
