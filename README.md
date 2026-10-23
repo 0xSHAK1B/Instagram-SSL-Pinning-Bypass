@@ -6,12 +6,12 @@
 
 <br>
 
-[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v446.0.0.49.77)-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](../../releases/latest)
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v452.1.0.53.64)-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](../../releases/latest)
 [![Telegram](https://img.shields.io/badge/Chat_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
 ![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Instagram-v446.0.0.49.77-E4405F?style=flat-square&logo=instagram&logoColor=white)
+![Version](https://img.shields.io/badge/Instagram-v452.1.0.53.64-E4405F?style=flat-square&logo=instagram&logoColor=white)
 ![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
 </div>
@@ -30,9 +30,9 @@
 
 <div align="center">
 
-<img width="578" height="1280" alt="Image" src="https://github.com/user-attachments/assets/7f0c34b9-88c7-4b4e-aa52-41884f129fcf" />
+<img width="586" height="793" alt="Image" src="https://github.com/user-attachments/assets/42796b1a-9de6-4dd4-8ba9-8ed0715cc00c" />
 
-> Live capture — Instagram Android HTTPS traffic intercepted in cleartext. **v446.0.0.49.77**.
+> Live capture — Instagram Android HTTPS traffic intercepted in cleartext. **v452.1.0.53.64**.
 
 </div>
 
@@ -42,7 +42,7 @@
 
 | App | Package | Version | ABI | Status |
 |-----|---------|:-------:|:---:|:------:|
-| Instagram for Android | `com.instagram.android` | **446.0.0.49.77** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
+| Instagram for Android | `com.instagram.android` | **452.1.0.53.64** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
 > Grab the patched APK from the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
